@@ -18,7 +18,7 @@ fn setup(
     mut meshes: ResMut<Assets<Mesh>>,
     mut materials: ResMut<Assets<ColorMaterial>>,
 ) {
-    commands.spawn(Camera2dBundle::default().)
+    commands.spawn(Camera2dBundle::default())
     .insert(PanCam::default());
 
     let mut rng = rand::thread_rng();
